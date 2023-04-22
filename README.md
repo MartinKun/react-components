@@ -1,0 +1,2 @@
+# <img height="50" src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React"/> Biblioteca de componentes para React.
+<p>Este repositorio pretende ser una biblioteca de componentes de React que iré diseñado para ser utilizados en proyectos que utilicen Vite y TypeScript. Los mismos estarán organizados de acuerdo a diferentes estilos de diseño: Bootstrap, CSS común y Tailwind.</p>
