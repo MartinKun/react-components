@@ -34,15 +34,11 @@ const Test = () => {
   );
 
   return (
-    <div className="w-full flex justify-center">
-      <div className="w-[400px]">
-        <Controller
-          allOptions={allOptions}
-          selectedOptions={selectedOptions}
-          setSelectedOptions={setSelectedOptions}
-        />
-      </div>
-    </div>
+    <Controller
+      allOptions={allOptions}
+      selectedOptions={selectedOptions}
+      setSelectedOptions={setSelectedOptions}
+    />
   );
 };
 

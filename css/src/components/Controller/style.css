@@ -1,0 +1,113 @@
+.controller {
+    position: relative;
+    width: 100%;
+}
+
+.controller-field {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    border: 1px #002A61 solid;
+    border-radius: 8px;
+    padding-right: 6px;
+}
+
+.controller-field span {
+    max-width: 60px;
+    font-style: italic;
+    color: #A6A6A6;
+    padding: 0 8px;
+}
+
+.controller-field ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px 8px;
+    margin: 0;
+    gap: 4px;
+}
+
+.controller-option {
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    padding: 2px 8px;
+    display: flex;
+    row-gap: 8px;
+    border-radius: 5px;
+}
+
+.controller-option span {
+    font-size: 14px;
+}
+
+.controller-option img {
+    width: 10px;
+    cursor: pointer;
+}
+
+.controller-btns {
+    display: flex;
+    flex-direction: row;
+    height: 37px;
+}
+
+.controller-cross {
+    margin-top: 8px;
+    margin-right: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.controller-cross img {
+    width: 20px;
+}
+
+.controller-arrow {
+    border-left: 1px solid #e6e6e6;
+    margin-left: 8px;
+    margin-top: 1px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.controller-arrow img {
+    width: 37px;
+    height: 37px;
+}
+
+.controller-arrow.up img {
+    transform: rotate(180deg) translateY(3px);
+}
+
+.controller-select {
+    position: absolute;
+    margin: 6px 0 0 0;
+    padding: 2px;
+    max-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    border: 1px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    overflow-y: scroll;
+}
+
+.controller-select li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 14px;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.controller-select li:hover {
+    background-color: #deebeb;
+}
